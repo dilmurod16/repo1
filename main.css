@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family:Poppins;
+}
+.container{
+    width: 100%;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between;
+    align-items:center ;
+}
+.menu, .actions{
+    display: flex;
+    gap: 40px;
+}
+.content{
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-image: url(./images/scandinavian-interior-mockup-wall-decal-background\ 1.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 50px;
+}
+.discover{
+    width: 35%;
+    height: 60vh;
+     background: #FFF3E3;
+    padding: 30px;
+    border-radius: 20px;
+}
+.discover h5{
+    color: #333333;
+    
+}
+.discover h2{
+    color:#B88E2F;
+    font-size: 42px;
+    line-height: 52px;
+}
+.buyBtn{
+background-color: #B88E2F;
+color: white;
+font-weight: 600;
+padding: 12px 35px;
+border: 1px solid transparent;
+margin-top:30px;
+transition: .4s;
+cursor: pointer;
+}
+.buyBtn:hover{
+    background-color: white;
+    color: #B88E2F;
+    border-color: #B88E2F;
+}
+.title{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title h3{
+    font-size: 32px
+}
+.browse{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    object-fit: contain;
+}
+.furniture{
+    text-align: center;
+}
+
+
+.cards{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    
+   
+}
+.cards1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -200px;
+    
+   
+}
+.card{
+    width: 19%;
+    height: 60%;
+    background-color: lightgray;
+   
+}
+.card h5{
+    color: #898989;   
+}
+.card img{
+    width: 100%;
+    transition: 0.5s;
+
+}
+.card img:hover{
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+.Btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -250px ;
+}
+.btnShow{
+    background-color: #B88E2F;
+color: white;
+font-weight: 600;
+padding: 12px 35px;
+border: 1px solid transparent;
+margin-top:30px;
+transition: .6s;
+cursor: pointer;
+}
+.btnShow:hover{
+    background-color: white;
+    color: #B88E2F;
+    border-color: #B88E2F;
+}
+.rooms{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: #FFF3E3;
+  
+}
+.Explore{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}.Explore h1{
+    font-weight: 900;
+}
+.Explorephoto{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+gap: 90px;
+}
+.Explorephoto img{
+    width: 70%;
+    height: 70%;   
+}
+.indicator{
+    display: flex;
+    justify-content:center ;
+    align-items:end;
+    margin-left: -200px;  
+}
+.indicator img{
+    width: 100%;
+    height: 4%;  
+}
+.end{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    object-fit: cover;
+    justify-content:space-around;
+    align-items: center;
+    gap: 20px;
+
+}
+.end1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    object-fit: contain;
+    gap: 30px;
+    margin: 20px;
+}
+.end1 :nth-child(3){
+    margin-left: 350px;
+}
+.end-navbar{
+    width: 100%;
+    height: 70vh; 
+    text-align: center; 
+}
